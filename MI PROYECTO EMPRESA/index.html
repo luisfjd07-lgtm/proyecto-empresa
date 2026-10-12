@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Edredones La Guapa: productos de calidad para tu dormitorio.">
+  <title>EDREDONES LA GUAPA</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO Y MENÚ -->
+  <header class="encabezado">
+    <a class="logo" href="#inicio">
+      <h1>EDREDONES LA GUAPA</h1>
+      <p>Calidad, comodidad y estilo para tu dormitorio</p>
+    </a>
+
+    <nav class="menu-principal" aria-label="Menú principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Quiénes somos</a></li>
+
+        <li>
+          <a href="#productos">Productos</a>
+          <ul class="submenu">
+            <li><a href="#edredones">Edredones</a></li>
+            <li><a href="#juegos-cama">Juegos de cama</a></li>
+            <li><a href="#almohadas">Almohadas</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#pedidos">Pedidos</a>
+          <ul class="submenu">
+            <li><a href="#mayor">Por mayor</a></li>
+            <li><a href="#menor">Por menor</a></li>
+            <li><a href="#unidad">Por unidad</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- INICIO -->
+    <section id="inicio" class="seccion inicio">
+      <div class="contenedor">
+        <div class="contenido-inicio">
+          <p class="etiqueta">Tu dormitorio merece lo mejor</p>
+          <h2>EDREDONES LA GUAPA</h2>
+          <p>
+            Somos una empresa que ofrece productos de calidad
+            para tu dormitorio.
+          </p>
+          <a href="#productos" class="boton">Ver nuestros productos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUIÉNES SOMOS -->
+    <section id="nosotros" class="seccion fondo-blanco">
+      <div class="contenedor">
+        <h2>¿Quiénes somos?</h2>
+
+        <p class="descripcion-seccion">
+          En <strong>Edredones La Guapa</strong> queremos ayudarte
+          a crear un dormitorio acogedor, cómodo y con estilo.
+          Ofrecemos productos para vestir tu cama y hacer de tu
+          habitación un lugar especial.
+        </p>
+
+        <div class="valores">
+          <article class="valor">
+            <i class="fa-solid fa-star"></i>
+            <h3>Calidad</h3>
+            <p>Productos seleccionados para tu hogar.</p>
+          </article>
+
+          <article class="valor">
+            <i class="fa-solid fa-heart"></i>
+            <h3>Comodidad</h3>
+            <p>Textiles para disfrutar de un espacio acogedor.</p>
+          </article>
+
+          <article class="valor">
+            <i class="fa-solid fa-house"></i>
+            <h3>Estilo</h3>
+            <p>Opciones para renovar tu dormitorio.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIENVENIDA CON IMAGEN -->
+    <section class="seccion bienvenida">
+      <div class="contenedor tarjeta-bienvenida">
+        <div class="texto-bienvenida">
+          <p class="etiqueta">Descanso y decoración</p>
+          <h2>Haz de tu dormitorio tu lugar favorito</h2>
+          <p>
+            Encuentra productos que combinen con tu estilo
+            y dale a tu cama una apariencia cálida y acogedora.
+          </p>
+          <a href="#contacto" class="boton">Haz tu consulta</a>
+        </div>
+
+        <div class="foto-bienvenida" role="img"
+             aria-label="Decoración acogedora para dormitorio">
+          <span>Suavidad · Calidad · Estilo</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS CON IMÁGENES REALES -->
+    <section id="productos" class="seccion">
+      <div class="contenedor">
+        <h2>Nuestros productos</h2>
+
+        <p class="descripcion-seccion">
+          Conoce algunas de las opciones para vestir
+          y complementar tu dormitorio.
+        </p>
+
+        <div class="productos">
+
+          <!-- PRODUCTO 1 -->
+          <article id="edredones" class="producto">
+            <div class="producto-imagen">
+              <img src="imagenes/edredones.jpg"
+                   alt="Edredones para dormitorio"
+                   loading="lazy">
+            </div>
+
+            <div class="producto-contenido">
+              <h3>Edredones</h3>
+              <p>
+                Edredones para renovar tu cama y darle
+                un toque acogedor a tu habitación.
+              </p>
+              <a class="boton boton-secundario"
+                 href="#contacto"
+                 data-producto="Edredones">
+                Consultar
+              </a>
+            </div>
+          </article>
+
+          <!-- PRODUCTO 2 -->
+          <article id="juegos-cama" class="producto">
+            <div class="producto-imagen">
+              <img src="imagenes/juegos-cama.jpg"
+                   alt="Juego de cama"
+                   loading="lazy">
+            </div>
+
+            <div class="producto-contenido">
+              <h3>Juegos de cama</h3>
+              <p>
+                Completa la decoración de tu cama con textiles
+                que combinen con tu estilo.
+              </p>
+              <a class="boton boton-secundario"
+                 href="#contacto"
+                 data-producto="Juegos de cama">
+                Consultar
+              </a>
+            </div>
+          </article>
+
+          <!-- PRODUCTO 3 -->
+          <article id="almohadas" class="producto">
+            <div class="producto-imagen">
+              <img src="imagenes/almohadas.jpg"
+                   alt="Almohadas para descansar"
+                   loading="lazy">
+            </div>
+
+            <div class="producto-contenido">
+              <h3>Almohadas</h3>
+              <p>
+                Complementos para crear un espacio
+                de descanso agradable.
+              </p>
+              <a class="boton boton-secundario"
+                 href="#contacto"
+                 data-producto="Almohadas">
+                Consultar
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- MODALIDADES DE PEDIDO -->
+    <section id="pedidos" class="seccion pedidos">
+      <div class="contenedor">
+        <h2>Modalidades de pedido</h2>
+
+        <p class="descripcion-seccion">
+          Comunícate con nosotros para consultar disponibilidad
+          y condiciones de compra.
+        </p>
+
+        <div class="tipos-pedido">
+          <article id="mayor" class="tipo-pedido">
+            <i class="fa-solid fa-boxes-stacked"></i>
+            <h3>Por mayor</h3>
+            <p>Consulta las opciones para compras en cantidad.</p>
+          </article>
+
+          <article id="menor" class="tipo-pedido">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <h3>Por menor</h3>
+            <p>Pregunta por los productos disponibles.</p>
+          </article>
+
+          <article id="unidad" class="tipo-pedido">
+            <i class="fa-solid fa-box"></i>
+            <h3>Por unidad</h3>
+            <p>Consulta por el producto que estás buscando.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section id="beneficios" class="seccion fondo-blanco">
+      <div class="contenedor">
+        <h2>¿Por qué elegirnos?</h2>
+
+        <p class="descripcion-seccion">
+          Queremos ayudarte a encontrar lo que necesitas
+          para tu dormitorio.
+        </p>
+
+        <div class="valores">
+          <article class="valor">
+            <i class="fa-solid fa-check-circle"></i>
+            <h3>Atención personalizada</h3>
+            <p>Resolvemos tus consultas sobre nuestros productos.</p>
+          </article>
+
+          <article class="valor">
+            <i class="fa-solid fa-palette"></i>
+            <h3>Variedad de estilos</h3>
+            <p>Consulta por modelos, colores y diseños disponibles.</p>
+          </article>
+
+          <article class="valor">
+            <i class="fa-solid fa-comments"></i>
+            <h3>Comunicación directa</h3>
+            <p>Contáctanos para conocer más detalles antes de comprar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="seccion contacto">
+      <div class="contenedor">
+        <h2>Contáctanos</h2>
+
+        <p class="descripcion-seccion">
+          ¿Tienes alguna pregunta? Déjanos tus datos y tu consulta.
+        </p>
+
+        <form id="formularioContacto" class="formulario">
+          <div class="campo">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre"
+                   placeholder="Escribe tu nombre"
+                   minlength="3" required>
+          </div>
+
+          <div class="campo">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo"
+                   placeholder="ejemplo@correo.com" required>
+          </div>
+
+          <div class="campo">
+            <label for="producto">Producto de interés</label>
+            <select id="producto" name="producto" required>
+              <option value="">Selecciona un producto</option>
+              <option>Edredones</option>
+              <option>Juegos de cama</option>
+              <option>Almohadas</option>
+              <option>Compra por mayor</option>
+              <option>Otro</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"
+                      rows="5"
+                      placeholder="Escribe tu consulta"
+                      required></textarea>
+          </div>
+
+          <button type="submit" class="boton">
+            Enviar consulta
+          </button>
+
+          <p id="estadoFormulario"
+             class="estado-formulario"
+             role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="pie-pagina">
+    <div class="contenedor">
+      <h2>EDREDONES LA GUAPA</h2>
+
+      <p>
+        Somos una empresa que ofrece productos de calidad
+        para tu dormitorio.
+      </p>
+
+      <div class="redes-sociales">
+        <a href="#" aria-label="TikTok" title="Añade tu enlace de TikTok">
+          <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+        <a href="#" aria-label="Facebook" title="Añade tu enlace de Facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="#" aria-label="YouTube" title="Añade tu enlace de YouTube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+
+      <p class="copyright">
+        © <span id="anio"></span> Edredones La Guapa.
+        Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
